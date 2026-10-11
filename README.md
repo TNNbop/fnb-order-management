@@ -45,12 +45,6 @@ fnb-order-management/
 4. Theo dõi trạng thái bàn.
 5. Tính tổng hóa đơn.
 
-## Phân chia cho 4 thành viên
-1. **Thành viên 1 — Cấu trúc dữ liệu:** `queue.py`, `hash_map.py`, `test_queue.py`, `test_hash_map.py`.
-2. **Thành viên 2 — Thực đơn và bàn ăn:** `menu_item.py`, `dining_table.py`, `menu_service.py`.
-3. **Thành viên 3 — Đơn hàng và bếp:** `order.py`, `order_service.py`, `kitchen_service.py`, `test_orders.py`.
-4. **Thành viên 4 — Hóa đơn và tích hợp:** `invoice.py`, `billing_service.py`, `test_billing.py`, tích hợp qua `main.py`.
-
 ## Trình tự triển khai
 1. Thống nhất cấu trúc dữ liệu và cách gọi hàm giữa các thành viên.
 2. Hoàn thiện, kiểm thử Queue và Hash Map.
