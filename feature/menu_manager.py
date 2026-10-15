@@ -1,5 +1,5 @@
 from typing import Container, Dict, List, Optional
-from src.models.menu_item import MenuItem
+from models.menu_item import MenuItem
 
 
 class DuplicateCodeError(Exception):
